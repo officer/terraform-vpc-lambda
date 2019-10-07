@@ -2,6 +2,12 @@
 Basic lambda function with VPC that just output event and context as json string.
 
 # Parameters
+## subnet_ids
+(Required) Subnet ids which will be used by Lambda
+
+## security_group_ids
+(Required) Security Group ids which will be used by Lambda
+
 ## namespace
 Namespace of the resource.
 
