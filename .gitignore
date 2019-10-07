@@ -1,0 +1,5 @@
+.terraform
+*.tfstate*
+
+# The extention will be used for 'terraform plan -out ***'
+*.plan
